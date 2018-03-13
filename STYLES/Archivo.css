@@ -1,0 +1,327 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+background-color: black;
+
+}
+
+ ul li a{
+  margin: 0;
+  padding: 20px 94px 20px 93.3px;
+  float: left;
+  background-color: #e74c3c;
+  color: white;
+}
+ ul li a:hover{
+   background-color: #c0392b;
+   border-bottom: 3px solid black;
+   box-sizing: border-box;
+ }
+ .s{
+   background-color: #c0392b;
+   border-bottom: 3px solid black;
+   box-sizing: border-box;
+ }
+div{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: 2s;
+}
+div:hover{
+  background-color: yellow;
+  width: 350px;
+  height: 350px;
+}
+footer{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition: 2s;
+  transition-property: width, height, background-color, border;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 1s, 2s;
+}
+footer:hover{
+  background-color: blue;
+  width: 250px;
+  height: 300px;
+  border: 5px solid white;
+}
+
+section{
+  background-color: green;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: width, height, background-color;
+  transition-duration: 1s;
+  transition-delay: 0s, 0s, 1s;
+
+}
+section:hover {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+}
+section lucho{
+  background-color: yellow;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: width, height, background-color, border-radius;
+  transition-duration: 1s;
+  transition-delay: 2s, 2s, 3s, 4s;
+}
+section:hover lucho{
+  background-color: red;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+luis{
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: width, height, background-color;
+  transition-delay: 0s, 1s,2s;
+  transition-duration: 0.8s;
+}
+luis fer{
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition-property: margin, border-radius, background-color;
+  transition-duration: 1s;
+  transition-delay: 3s, 4s, 5s;
+}
+luis olarte{
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition-property: margin, border-radius, background-color;
+  transition-duration: 1s;
+  transition-delay: 3s, 4s, 5s;
+}
+luis:hover{
+  width: 350px;
+  height: 350px;
+  background-color: white;
+}
+luis:hover fer{
+    margin: 0 0 0 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+luis:hover olarte{
+    margin: 0 50px 0 0px;
+    border-radius: 50%;
+    background-color: green;
+}
+.n4{
+  background-color: #192a56;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: width, height, background-color;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s;
+}
+.n4 .l{
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: border-radius, background-color;
+  transition-duration: 1s;
+  transition-delay: 5s, 6s;
+}
+.n4 .u {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 3s, 4s;
+}
+.n4 .i{
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 3s, 4s;
+}
+.n4:hover {
+  width: 350px;
+  height: 350px;
+  background-color: #fbc531;
+}
+.n4:hover .u {
+border-radius: 50%;
+margin: 0 0 30px 30px;
+}
+.n4:hover .i{
+  border-radius: 50%;
+  margin: 30px 30px 0 0;
+}
+.n4:hover .l{
+  border-radius: 50%;
+  background-color: black;
+}
+.n5{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transition-property: width, height, background-color, border-top, border-right,  border-bottom,border-left;
+  transition-duration: 1s;
+  transition-delay: 0s, 1s, 2s, 3s, 3.5s, 4s, 4.5s;
+}
+
+
+.n5 .f{
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 5s,6s;
+}
+.n5 .e{
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 7s,8s;
+}
+.n5 .r{
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  transition-property: border-radius,background-color;
+  transition-duration: 1s;
+  transition-delay: 13s,14s;
+}
+.n5 .n{
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 9s,10s;
+}
+.n5 .a{
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition-property: margin,border-radius;
+  transition-duration: 1s;
+  transition-delay: 11s,12s;
+}
+.n5:hover{
+  width: 350px;
+  height: 350px;
+  background-color: #fbc531;
+  border-top: solid 10px #00a8ff;
+  border-right: solid 10px #4cd137;
+  border-left: solid 10px #9c88ff;
+  border-bottom: solid 10px #eb2f06;
+}
+
+.n5:hover .f{
+margin: 25px 0 0 25px;
+border-radius: 50%
+}
+.n5:hover .e{
+margin: 25px 25px 0 0;
+border-radius: 50%
+}
+.n5:hover .n{
+margin: 0 0 25px 25px;
+border-radius: 50%;
+}
+
+.n5:hover .a{
+margin: 0 25px 25px 0;
+border-radius: 50%
+}
+
+.n5:hover .r{
+border-radius: 50%;
+background-color: black;
+}
